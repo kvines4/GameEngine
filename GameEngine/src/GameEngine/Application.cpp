@@ -1,4 +1,8 @@
+#include "enginepch.h"
 #include "Application.h"
+
+#include "GameEngine/Events/ApplicationEvents.h"
+#include "GameEngine/Log.h"
 
 namespace GameEngine
 {
@@ -14,9 +18,9 @@ namespace GameEngine
 
 	void Application::Run()
 	{
-		while (true)
-		{
+		WindowResizeEvent e(1280, 720);
+		ENGINE_TRACE(e);
 
-		}
+		while (true);
 	}
 }
