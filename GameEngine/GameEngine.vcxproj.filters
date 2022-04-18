@@ -25,7 +25,7 @@
     <ClInclude Include="src\GameEngine\EntryPoint.h">
       <Filter>GameEngine</Filter>
     </ClInclude>
-    <ClInclude Include="src\GameEngine\Events\ApplicationEvents.h">
+    <ClInclude Include="src\GameEngine\Events\ApplicationEvent.h">
       <Filter>GameEngine\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\GameEngine\Events\Event.h">
