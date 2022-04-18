@@ -1,5 +1,6 @@
 #pragma once
 
+#include "enginepch.h"
 #include "GameEngine/Core.h"
 
 namespace GameEngine
