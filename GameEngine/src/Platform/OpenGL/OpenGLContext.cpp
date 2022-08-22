@@ -19,9 +19,9 @@ namespace GameEngine
 		ENGINE_CORE_ASSERT(status, "Failed to initialize Glad!");
 
 		ENGINE_CORE_INFO("OpenGL Info:");
-		ENGINE_CORE_INFO("  Vendor:   {0}", glGetString(GL_VENDOR));
-		ENGINE_CORE_INFO("  Renderer: {0}", glGetString(GL_RENDERER));
-		ENGINE_CORE_INFO("  Version:  {0}", glGetString(GL_VERSION));
+		ENGINE_CORE_INFO("- Vendor:   {0}", glGetString(GL_VENDOR));
+		ENGINE_CORE_INFO("- Renderer: {0}", glGetString(GL_RENDERER));
+		ENGINE_CORE_INFO("- Version:  {0}", glGetString(GL_VERSION));
 	}
 
 	void OpenGLContext::SwapBuffers()
